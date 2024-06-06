@@ -1,0 +1,29 @@
+# Entorno virtual
+venv/
+*.pyc
+__pycache__/
+
+# Archivos temporales
+*.log
+*.pot
+*.py[cod]
+*$py.class
+
+# Bases de datos locales
+db.sqlite3
+
+# Configuración local
+/local_settings.py
+
+# Archivos de desarrollo
+.env
+
+# Archivos de IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistemas operativos
+.DS_Store
+Thumbs.db
