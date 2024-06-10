@@ -1,11 +1,11 @@
 
-from pprint import pprint
+
 from .videoindexer.Consts import Consts
 from .videoindexer.VideoIndexerClient import VideoIndexerClient
 from dotenv import load_dotenv
-
-
+from .openia.code import generate_minuta
 import os
+import json
 load_dotenv()
 def ModelVideoIndexer():
     AccountName = os.getenv('AccountName')
@@ -31,6 +31,7 @@ def ModelVideoIndexer():
 
     prompt_content = client.get_prompt_content(video_id)
 
+    generate_minuta(prompt_content)
     
     return prompt_content
 

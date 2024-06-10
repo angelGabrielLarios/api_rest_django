@@ -1,0 +1,93 @@
+# Minuta: Mesa Redonda - React vs Angular vs Vue vs Svelte
+
+## Fecha: 2023
+
+## Título del Video:
+**y2mate.com - React vs Angular vs Vue vs Svelte - Mesa redonda con expertos de pro**   
+
+### Participantes:
+- **Diana Martínez** @diana_nerd - Defendiendo Vue
+- **Nico** @nicobytes - Defendiendo Angular
+- **Mariangélica Useche** - Defendiendo React
+- **Oscar Barajas** @gndx - Defendiendo Svelte
+
+### Secciones Principales:
+
+1. **Introducción**
+   - **Duración**: `0:00:00 - 0:00:25.466667`
+   - **Contenido**: Presentación del evento y los participantes.
+   - **Transcripción**: Se da comienzo a la mesa redonda y se presenta a los asistentes.
+
+2. **Primera Ronda de Presentación**
+   - **Duración**: `0:00:25.466667 - 0:03:42.8`
+   - **Contenido**: Cada participante se presenta y defiende la simplicidad y curva de aprendizaje de sus respectivos frameworks.
+
+3. **Pregunta del Millón**
+   - **Duración**: `0:03:42.8 - 0:06:20.24`
+   - **Contenido**: Diana, Nico, Mariangélica y Oscar responden sobre por qué alguien debería elegir su framework defendido.
+
+4. **Frameworks: ¿Cuál eliminar y por qué?**
+   - **Duración**: `0:06:20.24 - 0:13:14.2`
+   - **Contenido**: Los participantes eligen un framework para eliminar y explican sus razones.
+   - **Resultados**:
+     - Nico: Eliminó React.
+     - Mariangélica: Eliminó Vue.
+     - Diana: Eliminó React.
+     - Oscar: Eliminó Angular.
+
+5. **Aspectos Positivos de los Frameworks Eliminados**
+   - **Duración**: `0:13:14.2 - 0:16:03.76`
+   - **Contenido**: Los participantes destacan algo positivo de los frameworks que eligieron eliminar.
+
+6. **Apuestas de Futuro**
+   - **Duración**: `0:16:03.76 - 0:21:37.56`
+   - **Contenido**: Discusión sobre frameworks emergentes como Astro, Quick, etc., y apuestas por el futuro del desarrollo web.
+   - **Resultados**:
+     - Oscar: Apuesta por Astro.
+     - Nico: Apuesta por Quick.
+     - Mariangélica: Apuesta por Astro.
+     - Diana: Sigue apostando por Vue pero ve futuro en Astro.
+
+7. **Autocrítica y Fortalezas**
+   - **Duración**: `0:21:37.56 - 0:27:12.92`
+   - **Contenido**: Reflexión sobre los puntos débiles y fuertes de los frameworks defendidos por cada experto.
+
+8. **Plan B: Framework Alternativo**
+   - **Duración**: `0:27:12.92 - 0:30:12.96`
+   - **Contenido**: Los participantes mencionan qué otro framework utilizarían si no tuvieran acceso a su framework favorito.
+   - **Resultados**:
+     - Nico: Next.js.
+     - Mariangélica: Angular.
+     - Diana: Svelte.
+     - Oscar: React con la combinación ideal sería Svelte y Astro.
+
+9. **Mensaje a los Desarrolladores**
+   - **Duración**: `0:30:12.96 - 0:36:52.24`
+   - **Contenido**: Cada participante envía mensajes a los desarrolladores que usan su framework defendido y a aquellos que deberían cambiar.
+
+10. **Cierre y Reflexiones Finales**
+    - **Duración**: `0:36:52.24 - 0:42:42.56`
+    - **Contenido**: Mensaje de cierre reconciliador y reflexiones sobre la colaboración entre comunidades framework.
+    - **Conclusión**: Promover la apertura y colaboración entre comunidades, recordando que la elección del framework debe estar basada en los requerimientos del proyecto y no en preferencias personales.
+
+11. **Sorteo de suscripciones**
+    - **Duración**: `0:42:42.56 - 0:50:55`
+    - **Contenido**: Sorteo de 15 suscripciones trimestrales de Platzi.
+    - **Ganadores**: Benny LV, alexito DEP, Guille Rey, jofa 8, Goligulias, Max R, Smorting 3456, MON_DEP, Chris Martin, Soares, animus ca, Merche def, Joaquín Arias 989, dan Ramírez dos, Space X de W.
+
+12. **Despedida**
+    - **Duración**: `0:50:55 - 0:51:08.433333`
+    - **Contenido**: Agradecimientos y recordatorio del segundo día del evento Amidufest con más charlas y sorteos.
+
+### Comentarios Finales:
+- La mesa redonda mostró un enfoque divertido y educativo sobre la competencia entre frameworks, destacando tanto sus ventajas como áreas de mejora.
+- Se enfatizó en la importancia de aprender múltiples herramientas y no "casarse" con un solo framework.
+- A través de un ambiente de camaradería, los expertos invitaron a la Comunidad a seguir aprendiendo y mejorar juntos.
+
+### Próximas Actividades:
+- **Fecha**: 22 de marzo
+- **Agenda**:
+  - Desde la SPA hasta microfrontends.
+  - Técnicas avanzadas de optimización y desarrollo.
+
+**Fin del documento.**
