@@ -1,7 +1,7 @@
 # projects/urls.py
 from django.urls import path
-from .views import get_mock_data
+from .views import get_video_transcript
 
 urlpatterns = [
-    path('api/mock-data/', get_mock_data, name='get_mock_data'),
+    path('api/get-video-transcript/', get_video_transcript, name='api/get_video_transcript'),
 ]

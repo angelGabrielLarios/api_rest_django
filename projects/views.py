@@ -4,11 +4,13 @@ from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
+from.models import ModelVideoIndexer
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
 @api_view(['GET'])
-def get_mock_data(request):
-    data = {
-        "name": "Proyecto de Prueba",
-        "description": "Esto es un proyecto de prueba.",
-        "status": "Activo"
-    }
-    return Response(data)
+def get_video_transcript(request):
+    angel = os.getenv('angel')
+    print(angel)
+    return Response(ModelVideoIndexer())
