@@ -1,7 +1,9 @@
 # projects/urls.py
 from django.urls import path
-from .views import get_video_transcript
+from .views import generate_minutes_of_video_meeting
 
 urlpatterns = [
-    path('api/get-video-transcript/', get_video_transcript, name='api/get_video_transcript'),
+    
+    path('generate-minutes-of-video-meeting', generate_minutes_of_video_meeting, name='generate_minutes_of_video_meeting')
+
 ]

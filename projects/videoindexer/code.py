@@ -1,13 +1,12 @@
 
 
-from .videoindexer.Consts import Consts
-from .videoindexer.VideoIndexerClient import VideoIndexerClient
+from .Consts import Consts
+from .VideoIndexerClient import VideoIndexerClient
 from dotenv import load_dotenv
 
 import os
-import json
 load_dotenv()
-def ModelVideoIndexer():
+def get_video_transcript():
     AccountName = os.getenv('AccountName')
     ResourceGroup = os.getenv('ResourceGroup')
     SubscriptionId = os.getenv('SubscriptionId')
@@ -31,9 +30,5 @@ def ModelVideoIndexer():
 
     prompt_content = client.get_prompt_content(video_id)
 
-    generate_minuta(prompt_content)
-    
     return prompt_content
-
-
 

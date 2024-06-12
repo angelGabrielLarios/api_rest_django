@@ -1,4 +1,3 @@
-#VidepIndexerClient.py
 
 import os
 import time
