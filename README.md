@@ -90,6 +90,18 @@ pip install -r requirements.txt
 ## Ejecutar el proyecto
 - Abrir la terminal de visual studio code con `ctrl + j` o buscar `¿Cómo abrir una nueva terminal de Visual Studio Code`
 
+
+- Ejeuctar estos de comandos de python
+
+~~~bash
+python manage.py makemigrations
+~~~
+
+~~~bash
+python manage.py migrate
+~~~
+
+
 ````bash
 python .\manage.py runserver
 ````

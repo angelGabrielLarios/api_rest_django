@@ -1,5 +1,5 @@
 
-
+from django.db import models
 from .videoindexer.Consts import Consts
 from .videoindexer.VideoIndexerClient import VideoIndexerClient
 from dotenv import load_dotenv
@@ -35,5 +35,10 @@ def ModelVideoIndexer():
     
     return prompt_content
 
+
+
+class Video(models.Model):
+    # Campo para almacenar el archivo de video
+    file = models.FileField(upload_to='videos/')
 
 

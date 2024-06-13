@@ -19,6 +19,12 @@ from .generate_word.code import generate_word
 from django.http import JsonResponse
 
 
+from rest_framework import generics
+from rest_framework import status
+from .models import Video
+from .serializers import VideoSerializer
+
+
 import os
 
 load_dotenv()
@@ -57,9 +63,38 @@ def generate_minutes_of_video_meeting(request):
         mensaje_error = "Ocurrió un error en la vista: {}".format(str(e))
         return JsonResponse({"error": mensaje_error}, status=500)
 
-""""@api_view(['GET'])
-def get_video_transcript(request):
-    return Response(ModelVideoIndexer())"""
+
+
+# views.py
+
+
+
+class VideoUploadView(generics.CreateAPIView):
+    # Configuración de la vista para manejar la subida de archivos
+    queryset = Video.objects.all()
+    serializer_class = VideoSerializer
+    def create(self, request, *args, **kwargs):
+        serializer = self.get_serializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        self.perform_create(serializer)
+        
+        # Construir la respuesta con información adicional
+        file_url = serializer.data['file']
+        file_name = request.data['file'].name
+        file_size = request.data['file'].size
+        mime_type = request.data['file'].content_type
+        
+        response_data = {
+            "message": "File uploaded successfully.",
+            "file_url": file_url,
+            "file_name": file_name,
+            "file_size": f"{file_size / (1024 * 1024):.2f} MB",  # Convertir bytes a MB
+            "mime_type": mime_type
+        }
+        
+        headers = self.get_success_headers(serializer.data)
+        return Response(response_data, status=status.HTTP_201_CREATED, headers=headers)
+
 
 
 @api_view(['GET'])

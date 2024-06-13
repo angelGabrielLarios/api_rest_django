@@ -27,3 +27,7 @@ db.sqlite3
 # Archivos de sistemas operativos
 .DS_Store
 Thumbs.db
+
+
+# Video subidos ignorarlos
+*.mp4
